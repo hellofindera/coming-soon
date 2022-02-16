@@ -12,6 +12,12 @@ body {
   background: rgba(9, 25, 49, 1.00);
   background-color: #020B19;
 }
+@media only screen and (max-width: 1120px) {
+  .container {
+    margin: 0.5rem;
+    border-radius: 1.5rem;
+  }
+}
 
 /* Footer */
 .footer {
@@ -128,4 +134,22 @@ body {
 .medium > span:nth-child(3) > img {
   margin-left: 16px;
   transform: translateY(2px);
+}
+@media only screen and (max-width: 1120px) {
+  .header {
+    padding: 1.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .coming-soon-msg {
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    margin-left: 0;
+  }
+  .logo > span {
+    display: none;
+  }
 }
