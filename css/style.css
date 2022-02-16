@@ -9,8 +9,57 @@ body {
 .container {
   margin: 1rem;
   border-radius: 2rem;
-  min-height: calc(100vh - 1rem * 2);
-  background-color: #0A1931;
+  background: rgba(9, 25, 49, 1.00);
+  background-color: #020B19;
+}
+
+/* Content */
+.content {
+  width: 1000px;
+  margin: 5vh auto;
+}
+.heading {
+  color: white;
+  font-weight: 500;
+  font-size: 8.4rem;
+  line-height: 8.4rem;
+  margin: 0;
+  display: inline-block;
+  background: rgb(138,241,124);
+  background: linear-gradient(45deg, rgba(138,241,124,1) 0%, rgba(60,110,255,1) 25%, rgba(249,0,233,1) 50%, rgba(255,165,33,1) 75%, rgba(234,73,136,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading-desc {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+  display: block;
+  padding-top: 3rem;
+  font-weight: 300;
+  margin: 0;
+}
+.notify-button {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 7px;
+  background: white;
+  cursor: pointer;
+  transition: 0.3s;
+  outline: none;
+}
+.notify-button:focus {
+  outline: none;
+}
+.notify-button:hover {
+  background: #e3e3e3;
+}
+.notify-button > span {
+  background: rgb(16,60,145);
+  background: linear-gradient(45deg, rgba(16,60,145,1) 50%, rgba(104,29,207,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Header */
