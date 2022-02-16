@@ -1,7 +1,63 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 * {
   box-sizing: border-box;
+}
+
+.container {
+  margin: 1rem;
+  border-radius: 2rem;
+  min-height: calc(100vh - 1rem * 2);
+  background-color: #0A1931;
+}
+
+/* Header */
+.header {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.header > h1 {
+  color: white;
+  margin: 0;
+  font-weight: normal;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+.header > h1 > img {
+  height: 32px;
+  margin-right: 1rem;
+}
+.header > p {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.8);
+}
+.header > a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: 7px;
+  background: rgb(221,221,221);
+  background: linear-gradient(45deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 32%, rgba(221,221,221,1) 60%, rgba(255,255,255,1) 100%);
+}
+.header > a > img {
+  height: 32px;
+  margin-right: 12px;
+}
+.header > a > span:nth-child(3) > img {
+  margin-left: 12px;
+  transform: translateY(2px);
 }
