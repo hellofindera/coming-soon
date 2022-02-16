@@ -37,6 +37,23 @@ body {
 .media > a:hover {
   color: rgba(255, 255, 255, 1);
 }
+@media only screen and (max-width: 1120px) {
+  .footer {
+    padding: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: block;
+  }
+  .media {
+    margin-top: 12px;
+  }
+  .media > a {
+    margin-left: 0;
+    margin-right: 7px;
+  }
+}
 
 /* Content */
 .content {
