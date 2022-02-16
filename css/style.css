@@ -85,6 +85,9 @@ body {
 .notify-button {
   display: inline-block;
   margin-top: 3rem;
+  font-size: 1rem;
+  outline: none;
+  border: 0;
   text-decoration: none;
   padding: 12px 16px;
   border-radius: 7px;
