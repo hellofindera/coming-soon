@@ -80,6 +80,7 @@ body {
 .heading-desc {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1.2rem;
+  line-height: 1.6rem;
   display: block;
   padding-top: 3rem;
   font-weight: 300;
